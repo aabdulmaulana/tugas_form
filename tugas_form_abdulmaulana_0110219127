@@ -1,0 +1,141 @@
+.<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <h1 align="center">TUGAS BUAT FORM</h1>
+<title>Formulir Biodata Mahasiswa</title>
+<style type="text/css">
+th {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+body {
+	background-color:#7c7cf1;
+	color:white;
+  font-family:georgia;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<form>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="5">
+  <tr>
+    <th width="25%" height="60">&nbsp;</th>
+    <th><p>Formulir Biodata Mahasiswa</p></th>
+    <th width="10%">&nbsp;</th>
+  </tr>
+</table>
+</form>
+  <p align=center></p>
+  <script src="script.js"></script>
+</body>
+
+</html>
+ 
+<div class="form-container" style="top: 100px;left: 200px;margin-top: 30px;border-top-width: 10px;border-left-width: 10px;border-right-width: 10px;padding-top: 40px;width: 900px;height: 1200px;">
+    <form action="action.php" method="post" autocomplete="on" id="form1">
+      <fieldset>
+      <legend>Informasi Primer</legend>
+      <div class="form-grup">
+        <div class="label">
+          <label>Nama Lengkap</label>
+        </div>
+        <div class="input">
+          <input type="text" name="nama" placeholder="Nama Lengkap" maxlength="25" autofocus style="width: 300px;height: 30px;">
+        </div>
+      </div>
+      <div class="form-grup">
+        <div class="label">
+          <label>Email</label>
+        </div>
+        <div class="input">
+          <input type="email" name="email" placeholder="asdasd@nurulfikri.ac.id" maxlength="20" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-grup">
+        <div class="label">
+          <label>Password</label>
+        </div>
+        <div class="input">
+          <input type="password" name="password" placeholder="Password dengan huruf, angka dan symbol">
+        </div>
+      </div>
+      <div class="form-grup">
+        <div class="label">
+          <label>TTL</label>
+        </div>
+        <div>
+          <input type="date" type="number" size="35" required/>
+           
+        </div>
+      </div>
+      <div class="form-grup">
+        <div class="label">
+          <label>Gender</label>
+        </div>
+        <div class="input">
+          <input type="radio" name="gender" value="1"> Laki-laki <br>
+          <input type="radio" name="gender" value="2"> Perempuan
+        </div>
+         
+          <label>Alamat</label>
+        </div>
+        <div class="input">
+          <textarea name="alamat" placeholder="Isi alamat lengkap Anda" rows="6"></textarea>
+        </div>
+     
+         <label>Propinsi</label>
+         <div>
+             <select name="Propinsi">
+                 <option value="">--silahkan pilih--</option>
+                 <option value="Jakarta">Jakarta</option>
+                 <option value="Jawa Barat">Jawa Barat</option>
+                 <option value="Jawa Timur">Jawa Timur</option>
+             </select>
+         </div>
+         <label>Kota</label>
+         <div>
+             <select name="Kota">
+                 <option value="">--silahkan pilih--</option>
+                 <option value="Jakarta">Jakarta Timur</option>
+                 <option value="Jawa Barat">Depok</option>
+                 <option value="Jawa Timur">Surabaya</option>
+             </select>
+         </div>
+         <label>Kecamatan</label>
+         <div>
+             <select name="Kecamatan">
+                 <option value="">--silahkan pilih--</option>
+                 <option value="Jakarta">Ciracas</option>
+                 <option value="Jawa Barat">Cimanggis</option>
+                 <option value="Jawa Timur">Tapos</option>
+             </select>
+         </div>
+         <label>Kelurahan</label>
+         <div>
+             <select name="Kelurahan">
+                 <option value="">--silahkan pilih--</option>
+                 <option value="Jakarta">Sukmajaya</option>
+                 <option value="Jawa Barat">Sukatani</option>
+                 <option value="Jawa Timur">Sukakamu</option>
+             </select>
+         
+            </div>
+          <br>
+          <br>
+            <div class="form-grup">
+                <button type="submit"><img src="button.png"> Submit </button>
+              </div>
+              <div class="form-grup">
+       
+     </div>
+</div>
+  
+</body>
+</html>  
